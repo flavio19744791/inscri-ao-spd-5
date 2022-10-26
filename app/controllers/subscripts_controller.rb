@@ -1,6 +1,8 @@
 class SubscriptsController < ApplicationController
-def new
-   def new
+  def index
+  end
+  
+  def new
     @subscript = Subscript.new
 end
 def create
@@ -15,4 +17,4 @@ def create
   end
 
 end
-end
+
